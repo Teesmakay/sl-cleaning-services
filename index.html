@@ -4,17 +4,33 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Golden Square Cleaning Services — Cape Town</title>
-  <meta name="description" content="Premium residential and commercial cleaning services in Cape Town. Professional staff • Reliable scheduling • 100% satisfaction." />
+
+  <!-- SEO -->
+  <meta name="description" content="Premium residential and commercial cleaning services in Cape Town. Professional staff, reliable scheduling and guaranteed satisfaction." />
+  <link rel="canonical" href="https://www.goldensquare.co.za/" />
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Golden Square Cleaning Services — Cape Town">
+  <meta property="og:description" content="Premium residential and commercial cleaning services in Cape Town. Reliable, professional and satisfaction guaranteed.">
+  <meta property="og:image" content="Logo.png">
+  <meta property="og:type" content="website">
+
   <link rel="icon" href="Logo.png" />
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#">
-        <img src="Logo.png" alt="Golden Square Cleaning Services logo" class="logo">
+
+      <a class="brand" href="#home">
+        <img src="Logo.png" alt="Golden Square Cleaning Services Logo" class="logo">
         <div class="brand-text">
           <span class="brand-name">Golden Square</span>
           <span class="brand-sub">Cleaning Services</span>
@@ -26,27 +42,35 @@
           <li><a href="#home" class="nav-link">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#contact" class="nav-link cta-link">Contact</a></li>
+          <li><a href="Contact.html" class="nav-link cta-link">Contact</a></li>
         </ul>
       </nav>
 
       <button class="hamburger" id="hamburger" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
+
     </div>
   </header>
 
   <!-- HERO -->
   <section id="home" class="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-bg" aria-hidden="true">
+      <img src="hero-cleaning.jpg" alt="" class="hero-img">
+    </div>
+
     <div class="container hero-content">
       <div class="hero-copy">
         <h1>A cleaner space. A better you.</h1>
-        <p class="lead">Professional residential, commercial and specialised cleaning services across Cape Town — delivered with care, reliability and attention to detail.</p>
+        <p class="lead">
+          Professional residential, commercial and specialised cleaning services across Cape Town — delivered with care, reliability and attention to detail.
+        </p>
+
         <div class="hero-ctas">
-          <a class="btn btn-primary" href="#contact">Get a Free Quote</a>
+          <a class="btn btn-primary" href="Contact.html">Get a Free Quote</a>
           <a class="btn btn-ghost" href="#services">View Services</a>
         </div>
+
         <ul class="hero-stats">
           <li><strong>1000+</strong> Cleaned Spaces</li>
           <li><strong>Fully</strong> Vetted Staff</li>
@@ -56,110 +80,90 @@
     </div>
   </section>
 
-  <!-- ABOUT PREVIEW -->
+  <!-- ABOUT -->
   <section id="about" class="section about">
     <div class="container grid-2">
+
       <div class="about-text">
         <h2>About Golden Square</h2>
-        <p>Based in Cape Town, Golden Square Cleaning Services provides tailored cleaning solutions for homes, offices, hospitality and healthcare. We combine trained professionals, modern equipment and eco-friendly products to deliver consistent results.</p>
+        <p>
+          Based in Cape Town, Golden Square Cleaning Services provides tailored cleaning solutions for homes, offices, hospitality and healthcare. We combine trained professionals, modern equipment and eco-friendly products to deliver consistent results.
+        </p>
         <a class="btn btn-outline" href="About.html">Learn More</a>
       </div>
-      <div class="about-image" aria-hidden="true">
-        <!-- Replace with a curated image -->
-        <img src="https://media.istockphoto.com/id/1214033458/video/young-asian-woman-cleaning-house-sweeping-the-floor-with-a-mop-house-keeping-concept.jpg?s=640x640&k=20&c=EDEhP8RaVngn74asYIypdCQs-EUlorwLFuuRFHkkulo=" alt="cleaning professional sweeping a floor">
+
+      <div class="about-image">
+        <img src="about-cleaner.jpg" alt="Professional cleaner working in a home">
       </div>
+
     </div>
   </section>
 
-  <!-- SERVICES PREVIEW -->
+  <!-- SERVICES -->
   <section id="services" class="section services">
     <div class="container">
+
       <h2 class="section-title">Our Services</h2>
       <p class="section-sub">Custom packages for homes, businesses and specialised sites.</p>
 
       <div class="services-grid">
+
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🧹</div>
+          <img src="service-residential.jpg" class="service-img" alt="Residential cleaning service">
           <h3>Residential Cleaning</h3>
-          <p>Regular home cleans, deep cleans and move-in/move-out services with trusted staff and safe products.</p>
+          <p>Regular home cleans, deep cleans, and move-in/move-out services with trusted staff and safe products.</p>
         </article>
 
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🏢</div>
+          <img src="service-commercial.jpg" class="service-img" alt="Commercial office cleaning">
           <h3>Commercial Cleaning</h3>
-          <p>Office and retail cleaning: flexible schedules, professional equipment and discreet teams.</p>
+          <p>Office and retail cleaning with flexible schedules, professional equipment and discreet teams.</p>
         </article>
 
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🏥</div>
+          <img src="service-healthcare.jpg" class="service-img" alt="Healthcare facility cleaning">
           <h3>Healthcare Cleaning</h3>
-          <p>Strict hygiene protocols, certified disinfecting and compliance for clinics and health centres.</p>
+          <p>Strict hygiene protocols, disinfecting standards and compliance for clinics and medical centres.</p>
         </article>
 
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🛎️</div>
+          <img src="service-hospitality.jpg" class="service-img" alt="Hospitality cleaning for hotels and Airbnb">
           <h3>Hospitality & Short-stay</h3>
-          <p>Reliable turnover cleans for hotels and Airbnb hosts — fast, careful and guest-ready.</p>
+          <p>Fast turnover cleans for hotels and Airbnb hosts — reliable, careful and guest-ready.</p>
         </article>
 
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🏭</div>
+          <img src="service-industrial.jpg" class="service-img" alt="Industrial cleaning services">
           <h3>Industrial & Site Cleaning</h3>
-          <p>Heavy-duty site cleaning, post-construction tidy-ups and specialist solutions.</p>
+          <p>Heavy-duty site cleaning, post-construction cleanup and specialist solutions.</p>
         </article>
 
         <article class="service-card">
-          <div class="icon" aria-hidden="true">🧴</div>
+          <img src="service-specialised.jpg" class="service-img" alt="Specialised cleaning like carpet and window cleaning">
           <h3>Specialised Services</h3>
-          <p>Carpet steam cleaning, window squeegee services and custom requests.</p>
+          <p>Carpet steam cleaning, window cleaning and custom requests.</p>
         </article>
+
       </div>
 
       <div class="center">
         <a class="btn btn-primary" href="Services.html">See full services & pricing</a>
       </div>
-    </div>
-  </section>
 
-  <!-- WHY CHOOSE US -->
-  <section class="section values">
-    <div class="container">
-      <h2 class="section-title">Why Choose Us</h2>
-      <div class="values-grid">
-        <div class="value">
-          <div class="value-icon">✔️</div>
-          <h4>Trained Professionals</h4>
-          <p>All staff are background-checked and trained to our quality standards.</p>
-        </div>
-        <div class="value">
-          <div class="value-icon">⚙️</div>
-          <h4>Modern Equipment</h4>
-          <p>We use industry-grade tools and eco-friendly cleaning products.</p>
-        </div>
-        <div class="value">
-          <div class="value-icon">⏱️</div>
-          <h4>Flexible Scheduling</h4>
-          <p>Morning, evening and weekend slots to suit your needs.</p>
-        </div>
-        <div class="value">
-          <div class="value-icon">⭐</div>
-          <h4>Satisfaction Focused</h4>
-          <p>We follow up and guarantee our standard — your satisfaction matters.</p>
-        </div>
-      </div>
     </div>
   </section>
 
   <!-- CONTACT CTA -->
-  <section id="contact" class="section contact-cta">
+  <section class="section contact-cta" id="contact">
     <div class="container contact-cta-inner">
       <div>
         <h3>Ready for a cleaner space?</h3>
         <p>Call us, message on WhatsApp, or request a free quote — same-day responses available.</p>
       </div>
+
       <div class="contact-buttons">
         <a class="btn btn-primary" href="tel:+27211234567">Call +27 21 123 4567</a>
-        <a class="btn btn-ghost" href="mailto:info@goldensquare.co.za">Email us</a>
+        <a class="btn btn-ghost" href="mailto:info@goldensquare.co.za">Email Us</a>
       </div>
     </div>
   </section>
@@ -167,14 +171,20 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
+
       <div class="footer-col">
         <img src="Logo.png" alt="Golden Square logo small" class="logo-sm">
         <p>Golden Square Cleaning Services — Cape Town. Quality cleaning for homes and businesses.</p>
       </div>
+
       <div class="footer-col">
         <h4>Contact</h4>
-        <p>Phone: +27 21 123 4567<br>Email: info@goldensquare.co.za</p>
+        <p>
+          Phone: +27 21 123 4567<br>
+          Email: info@goldensquare.co.za
+        </p>
       </div>
+
       <div class="footer-col">
         <h4>Quick Links</h4>
         <nav>
@@ -184,7 +194,9 @@
           <a href="Contact.html">Contact</a>
         </nav>
       </div>
+
     </div>
+
     <div class="footer-bar">
       <div class="container">
         <small>© <span id="year"></span> Golden Square Cleaning Services. All rights reserved.</small>
@@ -193,5 +205,6 @@
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
